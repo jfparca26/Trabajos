@@ -1,0 +1,40 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background: linear-gradient(to left, #28aabb, #543dbb);
+}
+.card{
+width: 500px;
+height: 250px;
+display: flex;
+overflow: hidden;
+background: #fff;
+box-shadow: 0 5px 10px #033f49;
+border-radius: 10px;
+}
+.card .img-card {
+background: #033f49;
+width: 40%;
+height: 100%;
+background-size: cover;
+}
+.card .content {
+width: 60%;
+height: 100%;
+grid-template-rows: 50px 150px 50px;
+padding: 5px 15px;
+}
+img{
+margin: 10px;
+width: 90%;
+height: 90%;
+border-radius: 100px;
+
+}
